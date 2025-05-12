@@ -1,48 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
-"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
+<dict>
+  <key>items</key>
+  <array>
     <dict>
-        <key>items</key>
-        <array>
-            <dict>
-                <key>assets</key>
-                <array>
-                    <dict>
-                        <key>kind</key>
-                        <string>software-package</string>
-                        <key>url</key>
-                        <string>https://github.com/FrozenScriptsLLC/FrozenInstall-Apps/blob/main/ESignNoLogs-5.0-1.1_signed.ipa</string>
-                    </dict>
-                    <dict>
-                        <key>kind</key>
-                        <string>display-image</string>
-                        <key>needs-shine</key>
-                        <false/>
-                        <key>url</key>
-                        <string>https://rice-hub-downloads.vercel.app/Logo.jpeg</string>
-                    </dict>
-                    <dict>
-                        <key>kind</key>
-                        <string>full-size-image</string>
-                        <key>needs-shine</key>
-                        <false/>
-                        <key>url</key>
-                        <string>https://rice-hub-downloads.vercel.app/Esign.jpeg</string>
-                    </dict>
-                </array>
-                <key>metadata</key>
-                <dict>
-                    <key>bundle-identifier</key>
-                    <string>p3.xyz.yyyue.esign</string>
-                    <key>bundle-version</key>
-                    <string>1</string>
-                    <key>kind</key>
-                    <string>software</string>
-                    <key>title</key>
-                    <string>ESign</string>
-                </dict>
-            </dict>
-        </array>
+      <key>assets</key>
+      <array>
+        <dict>
+          <key>kind</key>
+          <string>software-package</string>
+          <key>url</key>
+          <string>https://cdn.jsdelivr.net/gh/FrozenScriptsLLC/FrozenInstall-Apps@main/ESignNoLogs-5.0-1.1_signed.ipa</string>
+        </dict>
+        <dict>
+          <key>kind</key>
+          <string>display-image</string>
+          <key>needs-shine</key>
+          <false/>
+          <key>url</key>
+          <string>https://cdn.jsdelivr.net/gh/FrozenScriptsLLC/FrozenInstall-Apps@main/IMG_1075.png</string>
+        </dict>
+      </array>
+      <key>metadata</key>
+      <dict>
+        <key>bundle-identifier</key>
+        <string>com.frozenscripts.esign</string>
+        <key>bundle-version</key>
+        <string>1.0</string>
+        <key>kind</key>
+        <string>software</string>
+        <key>title</key>
+        <string>ESign</string>
+      </dict>
     </dict>
-itms-services://?action=download-manifest&url=https://github.com/FrozenScriptsLLC/FrozenInstall-Apps/blob/main/ESignNoLogs-5.0-1.1_signed.ipa
+  </array>
+</dict>
+</plist>
